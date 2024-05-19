@@ -3268,20 +3268,26 @@ h6 {
 }
 .regions-area .regions-slider {
   position: relative;
-  padding: 0 10px;
 }
 .regions-area .regions-slider .regions-swiper {
-  box-shadow: 0px 16px 80px 0px rgba(0, 0, 0, 0.11);
   overflow: hidden;
 }
 .regions-area .regions-slider .slider-item {
-  box-shadow: 0px 16px 80px 0px rgba(0, 0, 0, 0.11);
-  border-radius: 4px;
-  border: 1px solid rgba(27, 24, 24, 0.05);
-  background: var(--white);
-  padding: 25px 15px 15px 15px;
+  align-self: stretch;
 }
-.regions-area .regions-slider .slider-item .area-name {
+.regions-area .regions-slider .slider-item img {
+  min-width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.regions-area .regions-slider .slider-item .slider-content {
+  text-align: center;
+  border-radius: 8px;
+  background: var(--white, #FFF);
+  box-shadow: 0px 4px 20px 0px rgba(19, 19, 37, 0.07);
+  padding: 24px;
+  margin-bottom: 13px;
+}
+.regions-area .regions-slider .slider-item .slider-content .area-name {
   text-align: center;
   /* Title/H4 */
   font-family: "Be Vietnam";
@@ -3293,7 +3299,7 @@ h6 {
   padding-top: 24px;
   padding-bottom: 10px;
 }
-.regions-area .regions-slider .slider-item .slider-text {
+.regions-area .regions-slider .slider-item .slider-content .slider-text {
   color: var(--gray-2);
   font-family: ABeeZee;
   font-size: 20px;
@@ -3638,6 +3644,22 @@ h6 {
   line-height: 140%; /* 22.4px */
   letter-spacing: 0.16px;
   text-transform: capitalize;
+}
+.service-area .service-items .single-item:hover {
+  background: var(--body-color);
+  box-shadow: 6px 12px 40px 0px rgba(19, 19, 37, 0.07);
+  color: var(--white);
+}
+.service-area .service-items .single-item:hover .content-title, .service-area .service-items .single-item:hover .service-btn, .service-area .service-items .single-item:hover .content-text {
+  color: var(--white);
+}
+.service-area .service-items .active {
+  background: var(--body-color);
+  box-shadow: 6px 12px 40px 0px rgba(19, 19, 37, 0.07);
+  color: var(--white);
+}
+.service-area .service-items .active .content-title, .service-area .service-items .active .service-btn, .service-area .service-items .active .content-text {
+  color: var(--white);
 }
 
 /*# sourceMappingURL=style.css.map */

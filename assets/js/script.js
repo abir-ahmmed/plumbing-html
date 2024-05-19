@@ -98,7 +98,7 @@
         },
         1200: {
           slidesPerView: 3,
-          spaceBetween: 31,
+          spaceBetween: 30,
         },
       },
 
@@ -139,6 +139,16 @@
 
     
   });
+
+  $('.single-item').hover(
+    function() {
+      $('.single-item').removeClass('active');
+      $(this).addClass('active');
+    }, function() {
+      // Optionally, you can remove the active class when the hover ends
+      // $(this).removeClass('active');
+    }
+  );
   
 
 })(jQuery);

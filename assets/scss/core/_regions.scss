@@ -6,40 +6,46 @@
         overflow: hidden;
         .regions-slider{
             .regions-swiper {
-                box-shadow: 0px 16px 80px 0px rgba(0, 0, 0, 0.11);
                 overflow: hidden;
             }
             position: relative;
-            padding:0 10px;
             .slider-item{
-                box-shadow: 0px 16px 80px 0px rgba(0, 0, 0, 0.11);
-                border-radius: 4px;
-                border: 1px solid rgba(27, 24, 24, 0.05);
-                background: $white;
-                padding: 25px 15px 15px 15px;
-
-                .area-name{
-                    text-align: center;
-                    
-                    /* Title/H4 */
-                    font-family: "Be Vietnam";
-                    font-size: 24px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 130%; /* 31.2px */
-                    text-transform: capitalize;
-                    padding-top: 24px;
-                    padding-bottom: 10px;
+                // gap: 10px;
+                align-self: stretch;
+                img{
+                    min-width: 100%;
+                    border-radius: 20px 20px 0 0;
                 }
-
-                .slider-text{
-                    color: $gray-2;
-                    font-family: ABeeZee;
-                    font-size: 20px;
-                    font-weight: 400;
-                    line-height: 174%; /* 34.8px */
+                .slider-content{
                     text-align: center;
-                    padding-bottom: 24px;
+                    border-radius: 8px;
+                    background: var(--white, #FFF);
+                    box-shadow: 0px 4px 20px 0px rgba(19, 19, 37, 0.07);
+                    padding: 24px;
+                    margin-bottom: 13px;
+                    .area-name{
+                        text-align: center;
+                        
+                        /* Title/H4 */
+                        font-family: "Be Vietnam";
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 130%; /* 31.2px */
+                        text-transform: capitalize;
+                        padding-top: 24px;
+                        padding-bottom: 10px;
+                    }
+    
+                    .slider-text{
+                        color: $gray-2;
+                        font-family: ABeeZee;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 174%; /* 34.8px */
+                        text-align: center;
+                        padding-bottom: 24px;
+                    }
                 }
 
                 
