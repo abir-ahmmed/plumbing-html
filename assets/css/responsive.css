@@ -330,38 +330,25 @@
     }
 
 
-    /*Articles area*/
-    .articles-subtitle{
-        font-size: 14px;
-        line-height: 20px;
-        margin-top: 34px;
-        margin-bottom: 8px;
-    }
-    .articles-title{
-        font-size: 22px;
-        line-height: 28px;
-    }
-    .articles-text{
+
+
+     /* Blog Area */
+     .blog-area .blog-content .date{
         font-size: 16px;
-        line-height: 24px;
-        padding-top: 8px;
-        padding-bottom: 24px;
+     }
+     .blog-area .blog-content .blog-title{
+        font-size: 23px;
+    }
+     .blog-area .blog-content .btn-read{
+        font-size: 20px;
+    }
+     .blog-area .blog-content .btn-read svg{
+        width: 24px;
+        height: 24px;
+        opacity: 0.8;
     }
 
-    /* Thinking Area */
-    .thinking .thinking-title{
-        font-size: 22px;
-        line-height: 32px;
-    }
-    .thinking .thinking-text{
-        line-height: 26px;
-        font-size: 16px;
-    }
 
-    /* Processore Area */
-    .processore .break-line{
-        display: block;
-    }
 
     /* Footer Area */
     .footer-menu {
@@ -466,8 +453,16 @@
         font-size: 15px;
     }
     
-
+    /* Blog Area */
+    .blog-area .blog-content .blog-title{
+        font-size: 32px;
+    }
     
+
+    /* Footer Area */
+    .emergency-area .help-img-area .help-img{
+        top: -197px;
+    }
 
     /* Footer Area */
     .footer-title{

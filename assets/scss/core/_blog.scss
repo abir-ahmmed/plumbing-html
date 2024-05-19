@@ -1,0 +1,44 @@
+/*----------------------------------------*/
+/*  Blog Area
+/*----------------------------------------*/
+.blog{
+    &-area{
+        .blog-content{
+            .date{
+                color: $gray-2;
+
+                /* Body text/p4 */
+                font-family: ABeeZee;
+                font-size: 14px;
+                line-height: 174%; /* 27.84px */
+            }
+
+            .blog-title{
+                font-family: "Be Vietnam";
+                font-style: normal;
+                font-weight: 700;
+                line-height: 130%; /* 41.6px */
+                letter-spacing: -0.48px;
+                text-transform: capitalize;
+                font-size: 19px;
+            }
+
+            .btn-read{
+                color: $secondary-blue;
+                text-align: center;
+                /* Button/button 1 */
+                font-family: "Be Vietnam";
+                font-weight: 600;
+                line-height: 140%; /* 28px */
+                letter-spacing: 0.2px;
+                text-transform: capitalize;
+                font-size: 16px;
+                svg{
+                    width: 16px;
+                    height: 16px;
+                    margin: auto 0;
+                }
+            }
+        }
+    }
+}

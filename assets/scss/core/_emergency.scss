@@ -42,6 +42,8 @@
           }
           .pricing-shape{
             position: absolute;
+            right: -160px;
+            top: -120px;
           }
         }
       }
@@ -53,8 +55,10 @@
     .help-img-area{
       position: relative;
       .help-img{
+        min-width: 100%;
         position: absolute;
-        top: -197px;
+        top: 68px;
+        right: -50px;
       }
     }
   }

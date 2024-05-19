@@ -3595,6 +3595,42 @@ h6 {
 }
 
 /*----------------------------------------*/
+/*  Blog Area
+/*----------------------------------------*/
+.blog-area .blog-content .date {
+  color: var(--gray-2);
+  /* Body text/p4 */
+  font-family: ABeeZee;
+  font-size: 14px;
+  line-height: 174%; /* 27.84px */
+}
+.blog-area .blog-content .blog-title {
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 41.6px */
+  letter-spacing: -0.48px;
+  text-transform: capitalize;
+  font-size: 19px;
+}
+.blog-area .blog-content .btn-read {
+  color: var(--secondary-blue);
+  text-align: center;
+  /* Button/button 1 */
+  font-family: "Be Vietnam";
+  font-weight: 600;
+  line-height: 140%; /* 28px */
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.blog-area .blog-content .btn-read svg {
+  width: 16px;
+  height: 16px;
+  margin: auto 0;
+}
+
+/*----------------------------------------*/
 /*  Emergency Area
 /*----------------------------------------*/
 .emergency-area .section-heading .section-title, .emergency-area .section-heading .section-subtitle {
@@ -3630,6 +3666,8 @@ h6 {
 }
 .emergency-area .emergency-content .emergency-box .emergency-contact .pricing-shape {
   position: absolute;
+  right: -160px;
+  top: -120px;
 }
 .emergency-area h4, .emergency-area h6, .emergency-area a {
   color: var(--white);
@@ -3638,8 +3676,10 @@ h6 {
   position: relative;
 }
 .emergency-area .help-img-area .help-img {
+  min-width: 100%;
   position: absolute;
-  top: -197px;
+  top: 68px;
+  right: -50px;
 }
 
 /*----------------------------------------*/
