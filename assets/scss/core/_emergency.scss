@@ -2,9 +2,61 @@
 /*  Emergency Area
 /*----------------------------------------*/
 .emergency {
-  font-family: "Plus Jakarta Sans";
-  p,a,h2,h3,h4,h5,h6{
-    color: $white;
+  &-area{
+    .section-heading{
+      .section-title, .section-subtitle{
+        color: $white;
+      }
+    }
+    .emergency-content{
+      .content-text{
+        line-height: 174%; /* 34.8px */
+        color: $white;
+        font-size: 16px;
+      }
+
+      .emergency-box{
+        position: relative;
+        .emergency-btn{
+          border-radius: 8px;
+          background: $primary;
+          color: $white;
+          text-align: center;
+          font-family: "Be Vietnam";
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 140%; /* 28px */
+          letter-spacing: 0.2px;
+          text-transform: capitalize;
+          display: flex;
+          width: 250px;
+          padding: 16px 20px;
+          justify-content: center;
+          align-items: center;
+        }
+        .emergency-contact{
+          .user-items{
+            .call-icon{
+              margin-left: -10px;
+            }
+          }
+          .pricing-shape{
+            position: absolute;
+          }
+        }
+      }
+    }
+    h4,h6,a{
+      color: $white;
+    }
+
+    .help-img-area{
+      position: relative;
+      .help-img{
+        position: absolute;
+        top: -197px;
+      }
+    }
   }
   
 }

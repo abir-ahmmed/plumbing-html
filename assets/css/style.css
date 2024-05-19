@@ -3597,11 +3597,49 @@ h6 {
 /*----------------------------------------*/
 /*  Emergency Area
 /*----------------------------------------*/
-.emergency {
-  font-family: "Plus Jakarta Sans";
-}
-.emergency p, .emergency a, .emergency h2, .emergency h3, .emergency h4, .emergency h5, .emergency h6 {
+.emergency-area .section-heading .section-title, .emergency-area .section-heading .section-subtitle {
   color: var(--white);
+}
+.emergency-area .emergency-content .content-text {
+  line-height: 174%; /* 34.8px */
+  color: var(--white);
+  font-size: 16px;
+}
+.emergency-area .emergency-content .emergency-box {
+  position: relative;
+}
+.emergency-area .emergency-content .emergency-box .emergency-btn {
+  border-radius: 8px;
+  background: var(--primary);
+  color: var(--white);
+  text-align: center;
+  font-family: "Be Vietnam";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 140%; /* 28px */
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  display: flex;
+  width: 250px;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+}
+.emergency-area .emergency-content .emergency-box .emergency-contact .user-items .call-icon {
+  margin-left: -10px;
+}
+.emergency-area .emergency-content .emergency-box .emergency-contact .pricing-shape {
+  position: absolute;
+}
+.emergency-area h4, .emergency-area h6, .emergency-area a {
+  color: var(--white);
+}
+.emergency-area .help-img-area {
+  position: relative;
+}
+.emergency-area .help-img-area .help-img {
+  position: absolute;
+  top: -197px;
 }
 
 /*----------------------------------------*/

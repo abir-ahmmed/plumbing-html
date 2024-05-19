@@ -324,11 +324,10 @@
     /* Contact Area */
 
 
-    /*Clients Area*/
-    .clients-row {
-        grid-template-columns: repeat(6, 1fr);
+    /* Emergency Area*/
+    .emergency-area .emergency-content .content-text{
+        font-size: 20px;
     }
-
 
 
     /*Articles area*/
