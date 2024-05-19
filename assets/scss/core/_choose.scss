@@ -1,0 +1,106 @@
+/*----------------------------------------*/
+/*  Choose Area
+/*----------------------------------------*/
+.choose {
+    &-area{
+        .choose-content{
+            .content-text{
+                color: $gray-2;
+                line-height: 174%; /* 34.8px */
+                font-size: 15px;
+            }    
+        }
+
+        .service-box{
+            .service-item{
+                gap: 10px;
+                padding-bottom: 16px;
+                .small-title{
+                    font-family: ABeeZee;
+                    line-height: 174%; /* 34.8px */
+                    font-weight: normal;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .img-area{
+            position: relative;
+            .choose-img {
+                border-radius: 20px;
+            }
+
+            .satisfaction{
+                display: flex;
+                width: 230px;
+                padding: 24px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border-radius: 10px;
+                background: $white;
+                box-shadow: 0px 0px 20px 0px rgba(104, 102, 102, 0.16);
+                position: absolute;
+                top: 50px;
+                left: -60px;
+                &-shape{
+                    margin-bottom: 10px;
+                    svg{
+                        margin: auto;
+                    }
+                    .satisfaction-title{
+                        color: var(--accent, #FFB700);
+                        text-align: center;
+                        font-size: 40px;
+                        font-weight: 700;
+                        line-height: 108%; /* 43.2px */
+                        padding-left: 8px;
+                    }
+                }
+                &-subtitle{
+                    font-family: ABeeZee;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 174%; /* 27.84px */
+                }
+            }
+
+            .emergency{
+                position: absolute;
+                right: -60px;
+                bottom: 50px;
+                display: inline-flex;
+                padding: 24px 48px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border-radius: 10px;
+                background: $white;
+                box-shadow: 0px 0px 20px 0px rgba(104, 102, 102, 0.16);
+
+                svg{
+                    margin: auto;
+                }
+                &-title{
+                    color: var(--Blue-blue-01, #07F);
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 174%; /* 69.6px */
+                    margin-left: 8px;
+                }
+
+                &-subtitle{
+                    color: $body-color;                    
+                    font-family: ABeeZee;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 174%; /* 27.84px */
+                }
+            }
+        }
+    }
+
+    
+  }

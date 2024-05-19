@@ -1,0 +1,53 @@
+/*----------------------------------------*/
+/*  Service Area
+/*----------------------------------------*/
+.service{
+    &-area{
+        .service-items{
+            .single-item{
+                background-color: $white;
+                padding: 40px 32px;
+                border-radius: 16px;
+                box-shadow: 6px 12px 40px 0px rgba(19, 19, 37, 0.07);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 32px;
+                flex: 1 0 0;
+
+                .content-title{
+                    font-size: 17px;
+                    font-weight: 700;
+                    line-height: 130%; /* 31.2px */
+                    text-transform: capitalize;
+                    margin-bottom: 12px;
+                }
+
+                .content-text{
+                    color: $gray-2;
+                    line-height: 174%; /* 27.84px */
+                    font-size: 12px;
+                }
+                svg{
+                    height: 64px;
+                    width: 100%;
+                }
+                a{
+                    svg{
+                        width: 21px;
+                    }
+                }
+
+                .service-btn{
+                    font-family: "Be Vietnam";
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 140%; /* 22.4px */
+                    letter-spacing: 0.16px;
+                    text-transform: capitalize;
+                }
+            }
+
+        }
+    }
+}

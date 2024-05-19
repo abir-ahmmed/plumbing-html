@@ -1,0 +1,175 @@
+/*----------------------------------------*/
+/*  hero Area
+/*----------------------------------------*/
+.hero {
+    &-area{
+        .hero-left{
+            .hero-service{
+                display: none;
+                .service-item{
+                    position: relative;
+                    margin-right: 16px;
+                    .service-text-1 {
+                        position: absolute;
+                        font-size: 10px;
+                        bottom: 5px;
+                        padding: 0 20px;
+                        text-align: center;
+                    }
+                    .service-text-2 {
+                        position: absolute;
+                        font-size: 10px;
+                        bottom: 18px;
+                        padding: 0 22px;
+                        text-align: center;
+                    }
+                }
+                
+            }
+        }
+
+        .hero-right{
+            // position: relative;
+            background-image: url(/assets/img/hero/Mask-group.png);
+            background-size: 100%;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            form{
+                // position: absolute;
+                margin: auto;               
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.20);
+                background: rgba(255, 255, 255, 0.10);
+                box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.11);
+                backdrop-filter: blur(6px);
+                padding: 48px 40px;
+                width: 80%;
+                // height: auto;
+            }
+
+            button{
+                margin-top: 24px;
+                width: 100%;
+                justify-content: center;
+                padding: 20px;
+                text-transform: capitalize;
+                background-color: $primary;
+                border-radius: 8px;
+                font-weight: 600;
+                letter-spacing: .2px;
+                color: $white;
+            }
+
+            .form-group{
+                padding-top: 16px;
+                input, .form-control{
+                    padding: 18px 20px;
+                }
+            }
+
+            // .form-bg{
+            //     border-radius: 10px;
+            //     border: 1px solid rgba(255, 255, 255, 0.20);
+            //     background: rgba(255, 255, 255, 0.10);
+            //     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.11);
+            //     backdrop-filter: blur(6px);
+            //     display: flex;
+            //     width: 459px;
+            //     padding: 48px 40px;
+            //     flex-direction: column;
+            //     align-items: center;
+            //     gap: 24px;
+            //     position: absolute;
+            // }
+        }
+    }
+
+    &-common {
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+
+
+
+    
+    &-right{
+        position: relative;
+        
+
+    }
+
+    &-img{
+            border-radius: 50%;
+            width: 100%;
+            max-width: 609px;
+        }
+
+    &-title {
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 108%; /* 69.12px */
+        letter-spacing: -0.96px;
+
+    }
+
+    &-subtitle {
+        color: $blue-bright;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 1.71;
+        text-transform: uppercase;
+        display: inline-block;
+        position: relative;
+
+        @include pseudo(left 0 bottom 0) {
+            @include size(100%, 2px);
+            background: $blue-bright;
+        }
+    }
+
+    &-text {
+        font-weight: 600;
+        font-size: 15px;
+        text-align: justify;
+        line-height: 25px;  
+
+
+    }
+
+
+    &-timeline {
+        @include absolute(top -155px right 0);
+
+        img {
+            position: relative;
+            margin-left: auto;
+            z-index: -1;
+        }
+
+        &-box {
+            @include absolute(top 0 right 0);
+            text-align: right;
+
+            span {
+                display: inline-block;
+                font-family: $font-plus-jakarta;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 2.27;
+                margin-bottom: 23px;
+            }
+
+            h2 {
+                font-size: 80px;
+                line-height: 0.71;
+            }
+        }
+    }
+
+
+    
+}
+
