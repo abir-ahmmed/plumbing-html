@@ -107,11 +107,12 @@
     const testimonialSwiper = new Swiper('.testimonial-swiper', {
       slidesPerView: 1,
       spaceBetween: 10,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+      // navigation: {
+      //   nextEl: ".swiper-button-next",
+      //   prevEl: ".swiper-button-prev",
+      // },
       loop:true,
+      centeredSlides: true,
       spaceBetween: 10,
       //  centeredSlides: true,
        autoplay:{
@@ -124,12 +125,12 @@
           spaceBetween: 10,
         },
         1024: {
-          slidesPerView: 2.5,
+          slidesPerView: 2.8,
           spaceBetween: 20,
         },
         1200: {
-          slidesPerView: 2.5,
-          spaceBetween: 31,
+          slidesPerView: 2.8,
+          spaceBetween: 30,
         },
       },
 
