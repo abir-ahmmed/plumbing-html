@@ -627,6 +627,9 @@
   padding-right: 115px;
 }
 
+.pl-0 {
+  padding-left: 0px;
+}
 .pl-6 {
   padding-left: 6px;
 }
@@ -706,6 +709,15 @@
 }
 
 
+@media (min-width: 768px) {
+  .pl-md-20{
+    padding-left: 20px;
+  }
+
+  .pb-md-0{
+    padding-bottom: 0;
+  }
+}
 @media (min-width: 992px) {
   .mt-lg-0 {
     margin-top: 0px;

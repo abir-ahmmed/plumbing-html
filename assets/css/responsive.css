@@ -333,7 +333,7 @@
 
 
      /* Blog Area */
-     .blog-area .blog-content .date{
+     .blog-area  .date{
         font-size: 16px;
      }
      .blog-area .blog-content .blog-title{
@@ -342,7 +342,10 @@
      .blog-area .blog-content .btn-read{
         font-size: 20px;
     }
-     .blog-area .blog-content .btn-read svg{
+     .blog-area .problem-title{
+        font-size: 24px;
+     }
+     .blog-area .btn-read svg{
         width: 24px;
         height: 24px;
         opacity: 0.8;
