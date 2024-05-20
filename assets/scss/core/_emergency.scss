@@ -37,7 +37,21 @@
         .emergency-contact{
           .user-items{
             .call-icon{
-              margin-left: -10px;
+              margin-left: -24px;
+              background: var(--primary, #D20D0C);
+              display: flex;
+              width: 51px;
+              height: 51px;
+              padding: 18px;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              flex-shrink: 0;
+              border-radius: 55px;
+            }
+
+            .emergency-contact{
+              
             }
           }
           .pricing-shape{
