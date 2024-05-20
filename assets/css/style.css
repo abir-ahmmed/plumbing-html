@@ -2984,23 +2984,6 @@ h6 {
 .footer-area {
   color: var(--white);
 }
-.footer-area-2 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.footer-area-2 a, .footer-area-2 p {
-  color: var(--pragraph-color);
-}
-.footer-area-2 a:hover, .footer-area-2 p:hover {
-  color: var(--primary);
-}
-.footer-area-2 h2, .footer-area-2 h3, .footer-area-2 h4, .footer-area-2 h5, .footer-area-2 h6 {
-  color: var(--title-color);
-}
-.footer-area-2 h2:hover, .footer-area-2 h3:hover, .footer-area-2 h4:hover, .footer-area-2 h5:hover, .footer-area-2 h6:hover {
-  color: var(--primary);
-}
 .footer-area ul {
   list-style: none;
   margin: 0;
@@ -3058,26 +3041,24 @@ h6 {
 .footer-bottom p {
   color: var(--gray-4);
 }
-.footer-bottom .copiright-area {
-  text-align: center;
-  margin: 0 auto;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-}
-.footer-bottom-2 p {
-  color: rgba(3, 7, 30, 0.8980392157);
-}
 .footer-border {
   border-bottom: 1px solid var(--primary-2);
-}
-.footer-border-w {
-  border-top: 1px solid var(--white);
 }
 .footer-social-link ul {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+.footer-social-link ul li {
+  display: flex;
+  width: 40px;
+  height: 41px;
+  padding: 9px 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 34px;
+  background: rgba(255, 255, 255, 0.3);
 }
 .footer-social-link ul li a {
   width: 24px;
@@ -3091,36 +3072,6 @@ h6 {
 }
 .footer-social-link ul li a:hover {
   color: var(--primary);
-}
-.footer-social-link-2 ul {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.footer-social-link-2 ul li a {
-  font-size: 16px;
-  color: rgba(3, 7, 30, 0.8);
-}
-.footer-social-link-2 ul li a:hover {
-  color: var(--primary);
-}
-.footer-social-link-3 {
-  margin-top: 40px;
-}
-.footer-social-link-3 ul {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.footer-social-link-3 ul li a {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #222222;
-  color: #5A5A5A;
 }
 .footer-menu {
   padding-top: 30px;

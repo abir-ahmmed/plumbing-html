@@ -3,29 +3,6 @@
 /*----------------------------------------*/
 .footer {
     &-area {
-        &-2{
-            ul {
-                list-style: none;
-                margin: 0;
-                padding: 0;
-            }
-
-            a,p {
-                color: $pragraph-color;
-    
-                &:hover {
-                    color: $primary;
-                }
-            }
-            h2,h3,h4,h5,h6{
-                color: $title-color;
-    
-                &:hover {
-                    color: $primary;
-                }
-            }
-            
-        }
         color: $white;
         ul {
             list-style: none;
@@ -106,20 +83,6 @@
         p {
             color: $gray-4;
         }
-        
-        .copiright-area{
-            text-align: center;
-            margin: 0 auto;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 18px;
-        }
-
-        &-2{
-            p{
-                color: #03071EE5;
-            }
-        }
 
         
     }
@@ -127,9 +90,7 @@
     &-border{
         border-bottom: 1px solid $primary-2;
     }
-    &-border-w{
-        border-top: 1px solid $white;
-    }
+
     
     &-social-link {
         ul {
@@ -138,6 +99,15 @@
             gap: 12px;
 
             li {
+                display: flex;
+                width: 40px;
+                height: 41px;
+                padding: 9px 13px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border-radius: 34px;
+                background: rgba(255, 255, 255, 0.30);
                 a {
                     @include size(24px);
                     border-radius: 50%;
@@ -156,46 +126,6 @@
             }
         }
 
-        &-2 {
-            ul {
-                display: flex;
-                align-items: center;
-                gap: 20px;
-
-                li {
-                    a {
-                        font-size: 16px;
-                        color: #03071ECC;
-
-                        &:hover {
-                            color: $primary;
-                        }
-                    }
-                }
-            }
-        }
-
-        &-3 {
-            margin-top: 40px;
-
-            ul {
-                display: flex;
-                align-items: center;
-                gap: 10px;
-
-                li {
-                    a {
-                        @include size(48px);
-                        border-radius: 50%;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        background: #222222;
-                        color: #5A5A5A;;
-                    }
-                }
-            }
-        }
     }
 
     &-menu {
