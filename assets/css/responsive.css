@@ -126,6 +126,22 @@
         line-height: 20px;
     }
 
+    .footer-social-link ul{
+        justify-content: left;
+    }
+
+    .footer-bottom .bottom-contact{
+        justify-content: right;
+    }
+
+    .footer-bottom .bottom-contact .emergency-contact .right-content .call-text-1{
+        font-size: 16px;
+    }
+
+    .footer-bottom .bottom-contact .emergency-contact .right-content .call-text-2{
+        font-size: 20px;
+    }
+
 }
 
 /* Large */
@@ -507,6 +523,8 @@
         top: -8px;
         right: -8px;
     }
+
+
 }
 
 /* Extra extra large */

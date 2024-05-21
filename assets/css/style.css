@@ -3041,6 +3041,35 @@ h6 {
 .footer-bottom p {
   color: var(--gray-4);
 }
+.footer-bottom .bottom-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-bottom .bottom-contact .emergency-contact .call-icon {
+  width: 46px;
+  height: 46px;
+  padding: 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  display: flex;
+}
+.footer-bottom .bottom-contact .emergency-contact .call-icon svg {
+  height: 19.999px;
+  flex-shrink: 0;
+  width: 20px;
+}
+.footer-bottom .bottom-contact .emergency-contact .right-content .call-text-1 {
+  line-height: 174%;
+  font-size: 14px;
+}
+.footer-bottom .bottom-contact .emergency-contact .right-content .call-text-2 {
+  line-height: 130%;
+  text-transform: capitalize;
+  font-size: 16px;
+}
 .footer-border {
   border-bottom: 1px solid var(--primary-2);
 }
@@ -3048,6 +3077,7 @@ h6 {
   display: flex;
   align-items: center;
   gap: 12px;
+  justify-content: center;
 }
 .footer-social-link ul li {
   display: flex;
