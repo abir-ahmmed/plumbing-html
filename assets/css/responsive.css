@@ -456,6 +456,19 @@
         font-size: 15px;
     }
     
+    /* Emergency Area */
+    .emergency-area .emergency-content .emergency-box .emergency-btn{
+        font-size: 20px;
+        width: 250px;
+    }
+    .emergency-area .emergency-content .emergency-box .emergency-contact .emergency-number .call{
+        font-size: 20px;
+    }
+
+    .emergency-area .emergency-content .emergency-box .emergency-contact .emergency-number .number{
+        font-size: 24px;
+    }
+
     /* Blog Area */
     .blog-area .blog-content .blog-title{
         font-size: 32px;

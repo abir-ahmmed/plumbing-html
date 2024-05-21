@@ -3621,16 +3621,16 @@ h6 {
   color: var(--white);
   text-align: center;
   font-family: "Be Vietnam";
-  font-size: 20px;
   font-weight: 600;
   line-height: 140%; /* 28px */
   letter-spacing: 0.2px;
   text-transform: capitalize;
   display: flex;
-  width: 250px;
-  padding: 16px 20px;
   justify-content: center;
   align-items: center;
+  padding: 16px 20px;
+  font-size: 16px;
+  width: 200px;
 }
 .emergency-area .emergency-content .emergency-box .emergency-contact .user-items .call-icon {
   margin-left: -24px;
@@ -3644,6 +3644,23 @@ h6 {
   gap: 10px;
   flex-shrink: 0;
   border-radius: 55px;
+}
+.emergency-area .emergency-content .emergency-box .emergency-contact .emergency-number .call {
+  /* Body text/P2 */
+  font-family: ABeeZee;
+  line-height: 174%; /* 34.8px */
+  font-style: normal;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 14px;
+}
+.emergency-area .emergency-content .emergency-box .emergency-contact .emergency-number .number {
+  font-family: "Be Vietnam";
+  color: var(--white);
+  font-weight: 700;
+  line-height: 130%;
+  text-transform: capitalize;
+  font-size: 17px;
 }
 .emergency-area .emergency-content .emergency-box .emergency-contact .pricing-shape {
   position: absolute;
