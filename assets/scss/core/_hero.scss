@@ -115,26 +115,12 @@
 
     }
 
-    &-subtitle {
-        color: $blue-bright;
-        font-weight: 500;
-        font-size: 10px;
-        line-height: 1.71;
-        text-transform: uppercase;
-        display: inline-block;
-        position: relative;
-
-        @include pseudo(left 0 bottom 0) {
-            @include size(100%, 2px);
-            background: $blue-bright;
-        }
-    }
 
     &-text {
-        font-weight: 600;
+        font-weight: 400;
         font-size: 15px;
         text-align: justify;
-        line-height: 25px;  
+        line-height: 174%;  
 
 
     }
