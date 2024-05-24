@@ -9,6 +9,25 @@
                 line-height: 174%; /* 34.8px */
                 font-size: 15px;
             }    
+
+            .choose-btn{
+                // padding: 16px 26px;
+                background: $primary;
+                border-radius: 8px;
+                gap: 10px;
+                display: inline-block;
+                text-align: center;
+                font-family: "Be Vietnam";
+                font-weight: 500;
+                line-height: 140%; /* 28px */
+                letter-spacing: 0.2px;
+                text-transform: capitalize;
+                color:$white;
+                font-size: 20px;
+                &:hover{
+                    background:$black;
+                }
+            }
         }
 
         .service-box{

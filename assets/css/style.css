@@ -3423,6 +3423,23 @@ h6 {
   line-height: 174%; /* 34.8px */
   font-size: 15px;
 }
+.choose-area .choose-content .choose-btn {
+  background: var(--primary);
+  border-radius: 8px;
+  gap: 10px;
+  display: inline-block;
+  text-align: center;
+  font-family: "Be Vietnam";
+  font-weight: 500;
+  line-height: 140%; /* 28px */
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: var(--white);
+  font-size: 20px;
+}
+.choose-area .choose-content .choose-btn:hover {
+  background: var(--black);
+}
 .choose-area .service-box .service-item {
   gap: 10px;
   padding-bottom: 16px;
@@ -3550,6 +3567,10 @@ h6 {
 .project-area .courses-box .box-item img {
   min-width: 100%;
   border-radius: 8px 8px 0 0;
+  height: 348px;
+  width: 422px;
+  max-width: 100%;
+  max-height: 100%;
 }
 .project-area .courses-box .box-item .box-text {
   padding: 30px;
@@ -3756,6 +3777,9 @@ h6 {
 }
 .service-area .service-items .active .content-title, .service-area .service-items .active .service-btn, .service-area .service-items .active .content-text {
   color: var(--white);
+}
+.service-area .service-items .active svg {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
