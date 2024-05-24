@@ -3146,11 +3146,20 @@ h6 {
   text-align: center;
 }
 .hero-area .hero-right {
+  position: relative;
   background-image: url(/assets/img/hero/Mask-group.png);
   background-size: 100%;
   width: 100%;
   height: 100%;
   border-radius: 12px;
+}
+.hero-area .hero-right .hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
 }
 .hero-area .hero-right form {
   margin: auto;
