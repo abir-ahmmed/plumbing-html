@@ -3156,8 +3156,8 @@ h6 {
   position: absolute;
   top: 0;
   left: 0;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
   z-index: -1;
 }
 .hero-area .hero-right form {
