@@ -55,6 +55,16 @@
                 padding: 48px 40px;
                 width: 80%;
                 // height: auto;
+
+                .form-control{
+                    
+                    /* Body text/p4 */
+                    font-family: ABeeZee;
+                    font-weight: 400;
+                    line-height: 174%; /* 27.84px */
+                    font-size: 14px;
+                    
+                }
             }
 
             button{
@@ -73,7 +83,7 @@
             .form-group{
                 padding-top: 16px;
                 input, .form-control{
-                    padding: 18px 20px;
+                    padding: 10px 20px;
                 }
             }
 

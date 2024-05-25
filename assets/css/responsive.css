@@ -55,6 +55,14 @@
         letter-spacing: 1.2px;
     }
 
+    .hero-area .hero-right .form-group input, .hero-area .hero-right .form-group .form-control{
+        padding: 18px 20px;
+    }
+
+    .hero-area .hero-right form .form-control{
+        font-size: 16px;
+    }
+
         /* service Area */
     .service-area .service-items .single-item .content-text{
         font-size: 13px;
@@ -453,7 +461,6 @@
     .hero-area .hero-right {
         margin-left: 48px;
     }
-
 
 
 
