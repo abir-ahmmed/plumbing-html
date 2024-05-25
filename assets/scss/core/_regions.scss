@@ -48,8 +48,8 @@
                 margin-right: -42px;
                 border: 2px solid $gray-3;
                 svg{
-                    width: 20px;
-                    height: 20px;
+                    max-width: 20px;
+                    max-height: 20px;
                 }
             }
             .swiper-button-prev{                

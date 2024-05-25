@@ -3298,8 +3298,8 @@ h6 {
   border: 2px solid var(--gray-3);
 }
 .regions-area .regions-slider .swiper-button-next svg {
-  width: 20px;
-  height: 20px;
+  max-width: 20px;
+  max-height: 20px;
 }
 .regions-area .regions-slider .swiper-button-prev {
   border-radius: 50%;
