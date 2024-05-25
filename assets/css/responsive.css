@@ -78,7 +78,18 @@
 
     }
 
+    /* Testimonial Area */
+    .testimonial-area .testimonial-slider .slider-item .slider-content .client-content .client-title{
+        font-size: 14px;
+    }
 
+    .testimonial-area .testimonial-slider .slider-item .slider-content .client-review svg{
+        width: 10px;
+    }
+
+    .testimonial-area .testimonial-slider .slider-item{
+        padding: 18px;
+    }
 
     
 
@@ -324,6 +335,11 @@
         font-size: 20px;
     }
 
+    .choose-area .choose-content .choose-btn{
+        padding: 16px 26px;
+        font-size: 20px;
+    }
+
     /* Project Area */
 
     .project-area .nav-pills .nav-link{
@@ -338,14 +354,21 @@
         font-size: 20px;
 
     }
-    /* Work Area */
-  
-
-    /* Categories Area */
 
 
+    /* Testimonial Area */
+    .testimonial-area .testimonial-slider .slider-item .slider-content .client-content .client-title{
+        font-size: 15px;
+    }
 
-    /* Contact Area */
+
+    .testimonial-area .testimonial-slider .slider-item{
+        padding: 28px;
+    }
+
+    .testimonial-area .testimonial-slider .slider-item .slider-content .client-content .date{
+        font-size: 13px;
+    }
 
 
     /* Emergency Area*/
@@ -477,6 +500,23 @@
     }
     .service-area .service-items .single-item .content-text{
         font-size: 15px;
+    }
+
+        /* Testimonial Area */
+    .testimonial-area .testimonial-slider .slider-item .slider-content .client-content .client-title{
+            font-size: 20px;
+    }
+
+    .testimonial-area .testimonial-slider .slider-item .slider-content .client-review svg{
+        width: 16px;
+    }
+
+    .testimonial-area .testimonial-slider .slider-item .slider-content .client-content .date{
+        font-size: 14px;
+    }
+
+    .testimonial-area .testimonial-slider .slider-item{
+        padding: 32px;
     }
     
     /* Emergency Area */
