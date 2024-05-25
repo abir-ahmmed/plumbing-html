@@ -36,6 +36,11 @@
         }
         .emergency-contact{
           .user-items{
+            margin: auto 0;
+            img{
+              max-width: 51px;
+              max-height: 51px;
+            }
             .call-icon{
               margin-left: -24px;
               background: var(--primary, #D20D0C);

@@ -25,26 +25,19 @@
                     margin-bottom: 13px;
                     .area-name{
                         text-align: center;
-                        
-                        /* Title/H4 */
-                        font-family: "Be Vietnam";
-                        font-size: 24px;
-                        font-style: normal;
-                        font-weight: 700;
                         line-height: 130%; /* 31.2px */
                         text-transform: capitalize;
                         padding-top: 24px;
                         padding-bottom: 10px;
+                        font-size: 18px;
                     }
     
                     .slider-text{
                         color: $gray-2;
-                        font-family: ABeeZee;
-                        font-size: 20px;
-                        font-weight: 400;
                         line-height: 174%; /* 34.8px */
                         text-align: center;
                         padding-bottom: 24px;
+                        font-size: 14px;
                     }
                 }
 

@@ -91,6 +91,19 @@
         padding: 18px;
     }
 
+    .testimonial-area .testimonial-slider .slider-item .testimonial-text{
+        font-style: 12px;
+    }
+
+        /* regions Area */
+        .regions-area .regions-slider .slider-item .slider-content .area-name{
+            font-size: 20px;
+        }
+    
+        .regions-area .regions-slider .slider-item .slider-content .slider-text{
+            font-size: 16px;
+        }
+
     
 
     /*Footer Area*/
@@ -370,6 +383,10 @@
         font-size: 13px;
     }
 
+    .testimonial-area .testimonial-slider .slider-item .testimonial-text{
+        font-size: 14px;
+    }
+
 
     /* Emergency Area*/
     .emergency-area .emergency-content .content-text{
@@ -518,7 +535,21 @@
     .testimonial-area .testimonial-slider .slider-item{
         padding: 32px;
     }
+
+    .testimonial-area .testimonial-slider .slider-item .testimonial-text{
+        font-size: 18px;
+    }
     
+    /* regions Area */
+    .regions-area .regions-slider .slider-item .slider-content .area-name{
+        font-size: 24px;
+    }
+
+    .regions-area .regions-slider .slider-item .slider-content .slider-text{
+        font-size: 20px;
+    }
+
+
     /* Emergency Area */
     .emergency-area .emergency-content .emergency-box .emergency-btn{
         font-size: 20px;

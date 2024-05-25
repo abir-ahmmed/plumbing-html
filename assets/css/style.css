@@ -3279,24 +3279,18 @@ h6 {
 }
 .regions-area .regions-slider .slider-item .slider-content .area-name {
   text-align: center;
-  /* Title/H4 */
-  font-family: "Be Vietnam";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 130%; /* 31.2px */
   text-transform: capitalize;
   padding-top: 24px;
   padding-bottom: 10px;
+  font-size: 18px;
 }
 .regions-area .regions-slider .slider-item .slider-content .slider-text {
   color: var(--gray-2);
-  font-family: ABeeZee;
-  font-size: 20px;
-  font-weight: 400;
   line-height: 174%; /* 34.8px */
   text-align: center;
   padding-bottom: 24px;
+  font-size: 14px;
 }
 .regions-area .regions-slider .swiper-button-next {
   border-radius: 50%;
@@ -3368,7 +3362,7 @@ h6 {
 .testimonial-area .testimonial-slider .slider-item .testimonial-text {
   color: var(--gray-2);
   line-height: 174%; /* 31.32px */
-  font-size: 18px;
+  font-size: 10px;
 }
 .testimonial-rating {
   font-size: 16px;
@@ -3683,6 +3677,13 @@ h6 {
   padding: 16px 20px;
   font-size: 16px;
   width: 200px;
+}
+.emergency-area .emergency-content .emergency-box .emergency-contact .user-items {
+  margin: auto 0;
+}
+.emergency-area .emergency-content .emergency-box .emergency-contact .user-items img {
+  max-width: 51px;
+  max-height: 51px;
 }
 .emergency-area .emergency-content .emergency-box .emergency-contact .user-items .call-icon {
   margin-left: -24px;
